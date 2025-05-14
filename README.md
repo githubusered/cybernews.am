@@ -4,7 +4,7 @@ A modern news website frontend built with **React**, simulating real-world funct
 
 ## 🌐 Live Preview
 
-[🔗 Visit Cybernews.am Frontend (Vercel)]( )
+[🔗 Visit Cybernews.am Frontend (Vercel)]( https://cybernews-am.vercel.app/ )
 
 ---
 
