@@ -1,0 +1,120 @@
+.reviewsUserAndReview {
+    display: flex;
+    max-width: 560px;
+    padding: 20px;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+    
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 2px 10px 0px #A5A5A5;
+}
+.dark .reviewsUserAndReview{
+    background: #000;
+    border-color: #5A5A5A;
+    width: 100%;
+}
+
+.reviewsUserAndReview .reviewsUser{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    width: 30%;
+}
+.reviewsUser .reviewsUserImg{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+.reviewsUser .reviewUserFullNameAndProfession{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.reviewUserFullNameAndProfession .reviewUserFullName{
+    color: #3D3D3D;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    display: -webkit-box;
+    -webkit-line-clamp: 1.5;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+.dark .reviewUserFullNameAndProfession .reviewUserFullName{
+    color: #DADADA;
+}
+.reviewUserFullNameAndProfession .reviewUserProfession{
+    color: #3D3D3D;
+    font-size: 14px;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+
+}
+.dark .reviewUserFullNameAndProfession .reviewUserProfession{
+    color: #DADADA;
+}
+.reviewsUserAndReview .reviewsReview{
+    display: flex;
+    max-width: 383px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    width: 70%;
+}
+.reviewsUserAndReview h2{
+    align-self: stretch;
+    color: #3D3D3D;
+    font-size: 20px;
+    font-weight: 700;
+}
+.dark .reviewsUserAndReview h2{
+    color: #DADADA;
+}
+.reviewsUserAndReview p{
+    align-self: stretch;
+    color: #3D3D3D;
+    font-size: 18px;
+}
+.dark .reviewsUserAndReview p{
+    color: #DADADA;
+    text-align: left;
+}
+.reviewsUserAndReview .dateAndSubject{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+}
+.dateAndSubject .reviewsReviewDate{
+    color: #525252;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+.dark .dateAndSubject .reviewsReviewDate{
+    color: #DADADA;
+}
+.dateAndSubject .reviewsReviewSubject{
+    display: flex;
+    padding: 3px 4px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: linear-gradient(0deg, rgba(0, 186, 52, 0.10) 0%, rgba(0, 186, 52, 0.10) 100%), #FFF;
+}
+.dark .dateAndSubject .reviewsReviewSubject{
+    color: black;
+}

@@ -1,0 +1,81 @@
+.newsSection .container{
+    max-width: 1140px;
+    margin: 32px auto;
+}
+
+.container .newsSectionAll{
+    display: flex;
+    justify-content: space-between;
+}
+.newsSectionAll .newsSectionAllColumns{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.newsSectionAll .rowGap{
+    gap: 20px;
+}
+.newsSectionAllColumns .newsSectionAllColumn{
+    border-radius: 20px;
+    border: 1px solid #000000CC;
+    width:360px;
+    height: 300px;
+    background-size: cover;
+    
+    position: relative;
+}
+.dark .newsSectionAllColumns .newsSectionAllColumn{
+    border-color: #FFFFFFCC;
+}
+.newsSectionAllColumn .absoluteSectionColumnTitleAndRound{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.absoluteSectionColumnTitleAndRound .roundColor{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #13E8F6;
+    border: 0.5px solid white;
+}
+.absoluteSectionColumnTitleAndRound .absoluteSectionColumnTitle{
+    color: #FFF;
+    font-size: 16px;
+}
+
+
+.newsSectionAllColumns .newsSectionAllColumnAI{
+    height:600px;
+}
+.newsSectionAllColumnAI .absoluteSectionColumnTitleAndRound .roundColor{
+    background-color: #1345F6;
+}
+
+.newsSectionAllColumnGovernment .absoluteSectionColumnTitleAndRound .roundColor{
+    background-color: #9747FF;
+}
+
+.newsSectionAllColumnCybersecurity .absoluteSectionColumnTitleAndRound .roundColor{
+    background-color: #28DA7AE3;
+}
+
+.newsSectionAllColumnOthers .absoluteSectionColumnTitleAndRound .roundColor{
+    background-color: red;
+}
+.newsSectionAllColumns .newsSectionAllColumnECommerce{
+    height: 600px;
+    background-position: right;
+}
+.newsSectionAllColumnECommerce .absoluteSectionColumnTitleAndRound .roundColor{
+    background-color: black;
+}
+
+.newsSectionAllColumnTech .absoluteSectionColumnTitleAndRound .roundColor{
+    background-color: #FFED47;
+}
+
+

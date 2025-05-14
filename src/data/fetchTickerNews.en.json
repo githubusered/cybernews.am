@@ -1,0 +1,56 @@
+{
+    "data": [{
+        "id": 2,
+        "documentId": "npctelv27si345z0suw4cfnw",
+        "title": "Major Windows 11 Update",
+        "bodyText": "Microsoft has released a major update for Windows 11, bringing performance improvements, security patches, and an enhanced Start menu experience. Users are encouraged to install the update to maintain system security and stability.",
+        "createdAt": "2025-04-17T20:33:26.903Z",
+        "updatedAt": "2025-04-17T20:33:26.903Z",
+        "publishedAt": "2025-04-17T20:33:26.922Z",
+        "locale": "en"
+    }, {
+        "id": 6,
+        "documentId": "ouz4jlueebo3ashtiexb5e38",
+        "title": "Intel Launches New Chips",
+        "bodyText": "Intel has unveiled its next-gen processors, promising better AI performance and lower power consumption. The new series, built on the advanced Intel 4 process, targets laptops and high-end desktops.",
+        "createdAt": "2025-04-17T20:34:13.432Z",
+        "updatedAt": "2025-04-17T20:34:13.432Z",
+        "publishedAt": "2025-04-17T20:34:13.442Z",
+        "locale": "en"
+    }, {
+        "id": 10,
+        "documentId": "a3ds4p25jqtsyxleb5lklccy",
+        "title": "Google Workspace Expands",
+        "bodyText": "Google announced several new features for Workspace users, including AI-powered meeting summaries and smarter email drafting tools. These enhancements aim to boost productivity and collaboration in hybrid work environments.",
+        "createdAt": "2025-04-17T20:35:25.642Z",
+        "updatedAt": "2025-04-17T20:35:25.642Z",
+        "publishedAt": "2025-04-17T20:35:25.656Z",
+        "locale": "en"
+    }, {
+        "id": 14,
+        "documentId": "ivcqiwpdy5rx8pq1vj4ogikp",
+        "title": "GitHub Improves Security",
+        "bodyText": "GitHub has rolled out enhanced security features for developers, such as mandatory two-factor authentication and improved secret scanning for repositories. The move follows an increase in cyberattacks targeting open-source projects.",
+        "createdAt": "2025-04-17T21:33:03.979Z",
+        "updatedAt": "2025-04-17T21:33:03.979Z",
+        "publishedAt": "2025-04-17T21:33:03.991Z",
+        "locale": "en"
+    }, {
+        "id": 18,
+        "documentId": "p2p6g6fz4szc5ffbdkwcjjwk",
+        "title": "Zoom Upgrades Platform",
+        "bodyText": "Zoom has introduced new collaboration features, including integrated whiteboards, AI transcription, and meeting templates. These updates aim to make virtual meetings more dynamic and efficient for global teams.",
+        "createdAt": "2025-04-17T21:37:35.010Z",
+        "updatedAt": "2025-04-17T21:37:35.010Z",
+        "publishedAt": "2025-04-17T21:37:35.019Z",
+        "locale": "en"
+    }],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 5
+        }
+    }
+}

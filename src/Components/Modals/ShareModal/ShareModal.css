@@ -1,0 +1,83 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .shareModal {
+    background: white;
+    padding: 2rem;
+    padding-top: 3rem; /* ⬅️ ADD THIS LINE */
+    width: 90%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    
+    position: relative;
+  }
+  
+  
+  .closeBtn {
+    position: absolute;
+    top: 5px;   /* previously 12px */
+    left: 0; /* previously 12px */
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    line-height: 1;
+  }
+  
+  
+  .shareModal h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+  }
+  
+  .shareModal input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 0.95rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .shareModal button {
+    background-color: #44E790;
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    font-size: 0.95rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  .socialShare {
+    text-align: center;
+  }
+  
+  .socialShare a {
+    display: inline-block;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: #44E790;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  .socialShare a:hover {
+    text-decoration: underline;
+    color: #32c57c;
+  }
+  

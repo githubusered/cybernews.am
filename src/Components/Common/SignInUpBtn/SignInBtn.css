@@ -1,0 +1,51 @@
+.signInAndUp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    gap: 18px;
+    
+    border-radius: 8px;
+    border: 1px solid #44E790;
+}
+.signInAndUp .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+.login span{
+    font-size: 20px;
+}
+
+.signInAndUp .signUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 16px;
+    gap: 10px;
+    
+    border-radius: 8px;
+    background: #44E790;
+    cursor: pointer;
+    text-decoration: none;
+}
+.signUp span{
+    font-size: 20px;
+}
+
+@media (max-width: 1023px) {
+
+}
+@media (max-width: 768px) {
+    .btcLightModeLanguageLoginSignUp .signInAndUp{
+        display: none;
+    }
+    .btcLightModeLanguageLoginSignUp .signInAndUpAbs{
+        display: flex;
+    }
+}
+@media (max-width: 480px) {
+
+}

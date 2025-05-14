@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .likeHistory .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px; /* Added for small screen padding */
+  }
+  
+  .likeHistory .container .likeHistoryWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  
+  .likeHistoryWrapper > p {
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .dark .likeHistoryWrapper > p {
+    color: #FFF;
+  }
+  
+  .likeHistoryWrapper .settings {
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+    width: 100%;
+  }
+  
+  .settings .settingsLeft {
+    display: flex;
+    width: 20%;
+    padding: 71px 18px 17px 18px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex-shrink: 0;
+    align-self: stretch;
+  
+    border-radius: 8px;
+    border: 1px solid #44E790;
+  }
+  .dark .settings .settingsLeft {
+    background: #000;
+  }
+  
+  .settings .settingsRight {
+    width: 80%;
+    display: flex;
+    padding: 17px 18px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+  
+    border-radius: 8px;
+    border: 1px solid #44E790;
+  }
+  .dark .settings .settingsRight {
+    background: #000;
+  }
+  
+  .settingsRight .likeHistorySettings {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .likeHistorySettings .likeHistorySetting {
+    margin-bottom: 40px;
+  }
+  
+  /* ✅ Responsive Styles */
+  @media (max-width: 992px) {
+    .settings {
+      flex-direction: column;
+      gap: 24px;
+    }
+  
+    .settings .settingsLeft,
+    .settings .settingsRight {
+      width: 100%;
+    }
+  
+    .likeHistoryWrapper > p {
+      font-size: 32px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .likeHistoryWrapper > p {
+      font-size: 24px;
+    }
+  }
+  

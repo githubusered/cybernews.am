@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'MontserratarmRegular';
+    src: url('../../../../public/assets/Fonts/Montserratarm-Regular.otf');
+}
+@font-face {
+    font-family: 'MontserratarmBold';
+    src: url('../../../../public/assets/Fonts/Montserratarm-Bold.otf');
+  }
+.newsTicker {
+    width: 100%;
+    background: #fff; /* Dark mode background */
+    border-top:1px solid #F4F4F4;
+    border-bottom:1px solid #F4F4F4;
+    color: #000;
+    overflow: hidden;
+    padding: 10px 0;
+    white-space: nowrap;
+    position: relative;
+    margin: 18px 0;
+  }
+.dark .newsTicker{
+    background: #000; /* Dark mode background */
+    border-top:1px solid #222;
+    border-bottom:1px solid #222;
+    color: #fff;
+}
+  .tickerWrapper {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .tickerContent {
+    display: flex;
+    gap: 20px; /* Space between news items */
+    animation: tickerScroll 60s linear infinite;
+  }
+  
+  .tickerItem {
+    font-size: 16px;
+    /* font-weight: bold; */
+    font-family: "MontserratarmRegular";
+    font-weight: 200;
+    padding: 0 10px;
+  }
+  .tickerItemTitle{
+    font-family: 'MontserratarmBold';
+    font-size: 18px;
+  }
+  @keyframes tickerScroll {
+    from {
+      transform: translateX(18%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
+  /* Stop animation on hover */
+  .newsTicker:hover .tickerContent {
+    animation-play-state: paused;
+  }
+  

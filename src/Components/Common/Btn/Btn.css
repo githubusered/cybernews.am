@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "MontserratArmRegular", sans-serif;
+    src: url('../../../../public/assets/Fonts/Montserratarm-Regular.otf');
+}
+
+.btnReusable{
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #18A826;
+
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: "MontserratArmRegular";
+    font-size: 16px;
+    font-style: normal;
+}
+
+
+.eventBtnActive {
+    background-color: #18A826 !important;
+    color: white !important;
+    font-weight: 400 !important;
+    /* border: 1px solid  !important; */
+}

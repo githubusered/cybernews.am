@@ -1,0 +1,108 @@
+/* src/components/Common/SearchBar/SearchBar.css */
+
+.search {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.searchLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.input {
+  width: 320px;
+  padding: 12px 24px 12px 34px;
+  border-radius: 100px;
+  border: 1px solid #acacac;
+  background: #fff;
+  font-family: 'MontserratarmRegular', sans-serif;
+  font-size: 16px;
+}
+
+.dark .input {
+  background-color: black;
+  color: white;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchIconMagnifying {
+  width: 24px;
+  height: 24px;
+  color: #acacac;
+}
+
+.dark .input:focus + .searchIcon .searchIconMagnifying {
+  color: white;
+}
+
+.input:focus + .searchIcon .searchIconMagnifying {
+  color: black;
+}
+
+.input::placeholder {
+  color: #C8C9CB;
+  font-family: 'MontserratarmRegular', sans-serif;
+  font-size: 16px;
+}
+
+.searchResults {
+  top: 100%;
+  background: #fff;
+  position: absolute;
+  z-index: 1000;
+  width: 300px;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+.dark .searchResults {
+  background-color: black;
+  border: 1px solid #555;
+}
+
+.searchResultsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.searchResultItem {
+  padding: 10px 16px;
+  text-decoration: none;
+  color: var(--text-color, #000);
+  font-family: 'MontserratarmRegular', sans-serif;
+  font-size: 16px;
+  transition: background 0.2s ease-in-out;
+  border-radius: 8px;
+}
+
+.searchResultItem:hover {
+  background-color: #f0f0f0;
+}
+
+.dark .searchResultItem {
+  color: white;
+}
+
+.dark .searchResultItem:hover {
+  background-color: #333;
+}

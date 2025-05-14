@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .notifications .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px; /* add padding for small screens */
+  }
+  
+  .notifications .container .notificationsWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  
+  .notificationsWrapper > p {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .dark .notificationsWrapper > p {
+    color: #FFF;
+  }
+  
+  .notificationsWrapper .settings {
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+    width: 100%;
+  }
+  
+  .settings .settingsLeft {
+    display: flex;
+    width: 20%;
+    padding: 71px 18px 17px 18px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex-shrink: 0;
+    align-self: stretch;
+  
+    border-radius: 8px;
+    border: 1px solid #44E790;
+  }
+  .dark .settings .settingsLeft {
+    background: #000;
+  }
+  
+  .settings .settingsRight {
+    width: 80%;
+    display: flex;
+    padding: 17px 18px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+  
+    border-radius: 8px;
+    border: 1px solid #44E790;
+  }
+  .dark .settings .settingsRight {
+    background: #000;
+  }
+  
+  .settingsRight .notificationsSettings {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .notificationsSettings .notificationsSetting {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .notificationsSetting .notificationsFilter {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+    cursor: pointer;
+  }
+  
+  .notificationsFilter li:active {
+    border-bottom: 3px solid #44E790;
+  }
+  
+  
+  /* ✅ Responsive Styles */
+  @media (max-width: 992px) {
+    .settings {
+      flex-direction: column;
+      gap: 24px;
+    }
+  
+    .settings .settingsLeft,
+    .settings .settingsRight {
+      width: 100%;
+    }
+  
+    .notificationsWrapper > p {
+      font-size: 32px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .notificationsWrapper > p {
+      font-size: 24px;
+    }
+  
+    .notificationsSetting .notificationsFilter {
+      flex-direction: column;
+      gap: 6px;
+    }
+  }
+  

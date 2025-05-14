@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'MontserratarmBold', sans-serif;
+    src: url('../../../../public/assets/Fonts/Montserratarm-Bold.otf');
+}
+@font-face {
+    font-family: 'MontserratarmRegular', sans-serif;
+    src: url('../../../../public/assets/Fonts/Montserratarm-Regular.otf');
+}
+
+.sectionTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    font-size: 16px;
+    padding: 36px 0;
+}
+
+
+.sectionTitle p{
+    text-align: center;
+    font-family: "MontserratarmRegular";
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.dark .sectionTitle p{
+    color: white;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25), 0px 4px 4px rgba(255, 255, 255, 0.25), 0px 4px 4px rgba(255, 255, 255, 0.25);
+}
+
+
+.line{
+    flex-grow: 1;
+    height: 4px;
+    background-color: #7F7A7AF0;
+    border-radius: 8px;
+
+}
+.dark .line{
+    background-color: #808585;
+}

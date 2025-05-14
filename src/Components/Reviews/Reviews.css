@@ -1,0 +1,62 @@
+/* Custom Navigation & Pagination Container */
+.customControls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 5px;
+  position: relative;
+}
+
+/* Swiper Pagination (Dots) */
+.customControls .customPagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 120px;
+}
+
+.swiper-pagination-bullet {
+  background: #333;
+  opacity: 0.6;
+  margin: 0 5px;
+}
+.dark .swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.6);
+  opacity: 0.8;
+  
+}
+.swiper-pagination-bullet-active {
+    background: #18A826;
+}
+.dark .swiper-pagination-bullet-active{
+  background: #1DB954;
+}
+/* Custom Navigation Arrows */
+.customControls .customPrev, .customControls .customNext {
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+  transition: 0.3s;
+}
+.dark .customControls .customPrev, .dark .customControls .customNext{
+  color: rgba(255, 255, 255, 0.7);
+  transition: .3s;
+}
+
+.customControls .customPrev:hover,.customControls .customNext:hover {
+  color: #18A826;
+}
+
+.dark .customControls .customPrev:hover, .dark .customControls .customNext:hover{
+  color: #1DB954;
+}
+
+
+@media (max-width: 1024px) {
+  .container .swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

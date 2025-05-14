@@ -1,0 +1,19 @@
+.lightMode .lightModeIcon{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .lightMode{
+        display: none;
+    }
+}
+
+.dark {
+    background: #000;
+    color: white;
+}
+.dark .lightModeIcon {
+    color: yellow;
+}

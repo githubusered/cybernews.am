@@ -1,0 +1,31 @@
+.no-match-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .no-match-container h1 {
+    font-size: 5rem;
+    color: #ff4c4c;
+  }
+  
+  .no-match-container p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  .dark .no-match-container p {
+    color: #ffffff;
+  }
+  
+  .no-match-container button {
+    background-color: rgba(24, 168, 38, 0.70);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .no-match-container button:hover {
+    background-color: #18A826;
+  }
+  

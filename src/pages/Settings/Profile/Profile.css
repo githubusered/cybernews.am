@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profile .container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.profile .container .profileWrapper{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.profileWrapper > p{
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+.dark .profileWrapper > p{
+    color: #FFF;
+}
+
+.profileWrapper .settings{
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+    width: 100%;
+}
+
+.settings .settingsLeft{
+    display: flex;
+    width: 20%;
+    padding: 71px 18px 17px 18px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex-shrink: 0;
+    align-self: stretch;
+    
+    border-radius: 8px;
+    border: 1px solid #44E790;
+}
+.dark .settings .settingsLeft{
+    background: #000;
+}
+.settings .settingsRight{
+    width: 80%;
+    display: flex;
+    padding: 17px 18px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+
+    border-radius: 8px;
+    border: 1px solid #44E790;
+}
+.dark .settings .settingsRight{
+    background: #000;
+}
+
+.settingsRight .profileSettings{
+  width: 100%;
+}
+.profileSettings .profileSetting{
+  margin-bottom: 40px
+}
+.dark input:disabled {
+  background-color: #555;
+  color: #bbb;
+  border: 1px solid #444;
+}
+
+@media (max-width: 1024px) {
+  .profileWrapper .settings {
+    flex-direction: column;
+  }
+
+  .settings .settingsLeft,
+  .settings .settingsRight {
+    width: 100%;
+  }
+
+  .settings .settingsLeft {
+    padding: 40px 16px;
+    border-radius: 8px;
+  }
+
+  .settings .settingsRight {
+    padding: 24px 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .profileWrapper > p {
+    font-size: 28px;
+  }
+
+  .settings .settingsLeft {
+    gap: 16px;
+  }
+
+  .settings .settingsRight {
+    gap: 24px;
+  }
+
+  .profileSettings {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profileWrapper > p {
+    font-size: 24px;
+  }
+
+  .settings .settingsLeft,
+  .settings .settingsRight {
+    padding: 16px 12px;
+  }
+}
+
+
+/* -----------------------Avatarrr---------------- */
+.avatarSetting {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+  border: 1px solid #44E790;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.dark .avatarSetting {
+  background-color: #111;
+  border-color: #44E790;
+}
+
+.avatarSetting h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+}
+
+.dark .avatarSetting h3 {
+  color: #fff;
+}
+
+.avatarPreview {
+  gap: 12px;
+}
+
+.avatarImg{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #44E790;
+}
+
+.avatarPreview button {
+  padding: 8px 16px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.avatarPreview button:hover {
+  background-color: #d9363e;
+}
+
+.avatarSetting input[type="file"] {
+  margin-top: 8px;
+}
+
+.avatarSetting button[type="button"] {
+  padding: 8px 16px;
+  background-color: #44E790;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.avatarSetting button[type="button"]:hover {
+  background-color: #3ac77d;
+}
+
+/* RESPONSIVE STYLES */
+@media (max-width: 768px) {
+  .avatarSetting h3 {
+    font-size: 20px;
+  }
+
+  .avatarPreview img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .avatarSetting {
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .avatarSetting h3 {
+    font-size: 18px;
+  }
+
+  .avatarPreview img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .avatarSetting button[type="button"],
+  .avatarPreview button {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+}
+
+/* -----------------------Avatarrr---------------- */
+
+
+.personalInformation {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.personalInformation h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+.dark .personalInformation h3 {
+  color: #fff;
+}
+
+.personalInformation input,
+.personalInformation select {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.personalInformation input:focus,
+.personalInformation select:focus {
+  border-color: #44E790;
+}
+
+.personalInformation button {
+  padding: 12px 16px;
+  font-size: 16px;
+  background-color: #44E790;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.personalInformation button:hover {
+  background-color: #2ecc71;
+}
+
+/* Responsive: Mobile */
+@media (max-width: 600px) {
+  .personalInformation {
+    gap: 12px;
+  }
+  
+  .personalInformation h3 {
+    font-size: 20px;
+  }
+
+  .personalInformation input,
+  .personalInformation select {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+
+  .personalInformation button {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+}
+
+
+.passwordSetting {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.passwordSetting h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+.dark .passwordSetting h3 {
+  color: #fff;
+}
+
+.passwordSetting input {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.passwordSetting input:focus {
+  border-color: #44E790;
+}
+
+.passwordSetting button {
+  padding: 12px 16px;
+  font-size: 16px;
+  background-color: #44E790;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.passwordSetting button:hover {
+  background-color: #2ecc71;
+}
+
+/* Responsive: Mobile */
+@media (max-width: 600px) {
+  .passwordSetting {
+    gap: 12px;
+  }
+  
+  .passwordSetting h3 {
+    font-size: 20px;
+  }
+
+  .passwordSetting input {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+
+  .passwordSetting button {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+}
+
+form.addressAndAbout {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;  
+}
+
+form.addressAndAbout h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.dark form.addressAndAbout h3 {
+  color: #fff;
+}
+
+
+form.addressAndAbout input,
+form.addressAndAbout textarea {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+  resize: vertical;
+}
+
+form.addressAndAbout input:focus,
+form.addressAndAbout textarea:focus {
+  border-color: #44E790;
+}
+
+form.addressAndAbout textarea {
+  min-height: 120px;
+}
+
+form.addressAndAbout button {
+  padding: 12px 16px;
+  font-size: 16px;
+  background-color: #44E790;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form.addressAndAbout button:hover {
+  background-color: #2ecc71;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  form.addressAndAbout {
+    gap: 12px;
+  }
+
+  form.addressAndAbout h3 {
+    font-size: 20px;
+  }
+
+  form.addressAndAbout input,
+  form.addressAndAbout textarea {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+
+  form.addressAndAbout button {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+}

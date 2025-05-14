@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'MontserratarmRegular';
+    src: url('../../../../public/assets/Fonts/Montserratarm-Regular.otf');
+  }
+.date{
+    color: black;
+    text-align: left;
+    font-family: "MontserratarmRegular";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 44px;
+}
+.dateForNews{
+    color: black;
+    text-align: left;
+    font-family: "MontserratarmRegular";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+.dark .dateForNews{
+    color: #FFF;
+}
+.dark .date{
+    color: #FFF;
+}
+
+@media (max-width:1023px) {
+    .date{
+        font-size: 18px;
+        margin: 0 10px 44px;
+    }
+}
+@media (max-width:768px) {
+    .date{
+        font-size: 16px;
+        margin: 0 10px 33px;
+    }
+}
+@media (max-width:480px) {
+    .date{
+        font-size: 14px;
+        margin: 0 10px 22px;
+    }
+}

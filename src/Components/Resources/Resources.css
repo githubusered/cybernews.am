@@ -1,0 +1,54 @@
+.resources .container{
+    
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    width: 100%;
+    gap: 12px;
+    padding: 0 10px;
+}
+.container .resourcesColumn{
+    width: 360px;
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid #000000CC;
+    background-size: cover;
+    flex: 1 1 calc(25% - 0.5rem);
+
+    position: relative;
+}
+.resourcesColumn .columnRoundAndTitle{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.columnRoundAndTitle .columnRound{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: blue;
+}
+.dark .container .resourcesColumn{
+    border-color: #FFFFFFCC;
+}
+
+@media (max-width: 1024px) {
+    .container .resourcesColumn{
+        width: 260px;
+        height: 200px;
+        flex: 1 1 calc(50% - 0.5rem);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container .resourcesColumn{
+        flex: 1 1 calc(75% - 0.5rem);
+    }
+}

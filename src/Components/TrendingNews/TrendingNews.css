@@ -1,0 +1,82 @@
+.trendingNews .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.trendingNews .centerCont{
+    justify-content: center;
+}
+.container .trendingNewsControls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 5px;
+    position: relative;    
+}
+
+.trendingNewsControls .trendingNewsPagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trendingNewsPagination .trendingNewsPaginationCol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px 4px;
+    cursor: pointer;
+}
+.trendingNewsPagination .trendingNewsPaginationCol:hover{
+    background-color: #1DB954;
+    color: #fff;
+}
+.trendingNewsPaginationCol.active{
+    background-color: #1DB954;
+    color: white;
+}
+
+.trendingNewsControls .trendingNewsPrev,
+.trendingNewsControls .trendingNewsNext{
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+    transition: 0.3s;
+}
+
+.dark .trendingNewsControls .trendingNewsPrev,
+.dark .trendingNewsControls .trendingNewsNext{
+    color: rgba(255, 255, 255, 0.7);
+    transition: .3s;
+}
+
+.trendingNewsControls .trendingNewsPrev:hover,
+.trendingNewsControls .trendingNewsNext:hover{
+    color: #18A826;
+}
+
+.dark .trendingNewsControls .trendingNewsPrev:hover,
+.dark .trendingNewsControls .trendingNewsNext:hover{
+    color: #1DB954;
+}
+
+.error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #18A826;
+    padding: 40px 0;
+    color: white;
+    border-radius: 8px;
+    margin: 0 10px;
+}
+.tryAgainRefresh{
+    font-size: 38px;
+    cursor: pointer;
+}

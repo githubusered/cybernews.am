@@ -1,0 +1,35 @@
+backendUrl = http://localhost:1337/
+
+Information Simulation backend data.
+
+fetchByInterests.en.json api (use also for fetchByRandomFive en to avoid much data)
+api/newses?locale=en&filters[category][$in][0]=Cybersecurity&filters[category][$in][1]=Tech&populate=*
+
+fetchByInterests.hy.json api (use also for fetchByRandomFive hy to avoid much data)
+api/newses?locale=hy&filters[category][$in][0]=Cybersecurity&filters[category][$in][1]=Tech&populate=*
+
+
+fetchTickerNews.en.json api
+api/running-newses?locale=en
+
+fetchTickerNews.hy.json api
+api/running-newses?locale=hy
+
+
+user.json api (mock)
+api/auth/local
+
+users.json api
+api/users?populate=*
+
+profile.json
+api/profiles/tv3rerfcfjuuc8ipbelwq4o8?populate=*
+
+profiles.json
+api/profiles?populate=*
+
+reviews.en.json
+api/reviews?populate=*
+
+like activity of user
+api/likes?populate[news][populate][image]=true&populate[user]=true&filters[user][id][$eq]=2

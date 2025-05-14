@@ -1,0 +1,157 @@
+.event{
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    padding: 5px 16px 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.dark .event{
+    border-color: #000;
+    box-shadow:0px 4px 4px 0px rgba(255, 255, 255, 0.25) inset;
+}
+.event .eventImageAndTitle{
+    display: flex;
+    gap: 10px;
+    margin:30px 0 5px 0;
+}
+.eventImageAndTitle > img {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.dark .eventImageAndTitle > img {
+    border-color: #000;
+}
+
+.eventImageAndTitle .eventTitleAndPublisher{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 6px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+.eventTitleAndPublisher .eventPublisher{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    align-self: stretch;
+
+    overflow: hidden;
+    color: rgba(2, 2, 2, 0.70);
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+.dark .eventTitleAndPublisher .eventPublisher{
+    color: rgba(253, 253, 253, 0.70);
+}
+
+.eventTitleAndPublisher .eventTitle{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    max-width: 250px;
+
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+.dark  .eventTitleAndPublisher .eventTitle{
+    color: #FFF;
+}
+
+.eventTitleAndPublisher .eventRating{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+
+    overflow: hidden;
+    color: rgba(2, 2, 2, 0.70);
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.dark .eventTitleAndPublisher .eventRating{
+    color: rgba(253, 253, 253, 0.70);
+}
+.event .eventLocation {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+
+    overflow: hidden;
+    color: #000;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+.dark .event .eventLocation {
+    color: #FFF;
+}
+
+.event .eventInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+}
+.eventInfo .eventInfoPgf{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+.dark .eventInfo .eventInfoPgf{
+    color: #FFF;
+}
+
+.eventInfo span{
+    color: rgba(2, 2, 2, 0.70);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+.dark .eventInfo span{
+    color: rgba(253, 253, 253, 0.70);
+}
+.eventInfo > div{
+    position: relative;
+    text-align: center;
+    padding: 0 15px;
+}
+.eventInfo > div:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10%;
+  bottom: 10%;
+  width: 2px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.dark .eventInfo > div:not(:first-child)::before{
+      background-color: rgba(255, 255, 255, 0.3);
+}

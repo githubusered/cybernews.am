@@ -1,0 +1,1088 @@
+{
+    "data": [{
+        "id": 14,
+        "documentId": "reg9e4lh3nv7ldekxf29ld2b",
+        "title": "Google Cloud Leak Linked to Shark Tank Contestant Exposes 83,000",
+        "bodyText": [{
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "A leaking Google Cloud Storage bucket linked to Alice’s Table exposed the personal data of over 83,000 customers, including emails and home addresses. The breach occurred due to a misconfiguration that left the storage publicly accessible."
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": ""
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "The exposed data included both personal and corporate emails, with some belonging to high-profile companies such as Boston Consulting Group (BCG) and Pfizer. The leaked information could potentially be exploited by cybercriminals for phishing, fraud, or identity theft."
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": ""
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "Security analysts emphasize that this incident is a clear example of how simple misconfigurations in cloud environments can lead to large-scale data exposure. They warn that similar setups in other businesses may be unknowingly vulnerable."
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": ""
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "Experts recommend organizations immediately revoke public access to storage buckets unless explicitly required. In addition, implementing encryption, audit logging, and continuous security monitoring are essential best practices to avoid similar breaches."
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": ""
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "Alice’s Table, once featured on the entrepreneurial reality show Shark Tank, has not yet released a public statement. The company is expected to cooperate with authorities and privacy regulators as investigations continue."
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": ""
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "This incident serves as a critical reminder: in the cloud era, convenience must never outweigh security. Proper configuration, regular audits, and encryption are non-negotiable."
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": ""
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "Our thoughts go out to the individuals affected by the breach and we hope organizations take this as a wake-up call to strengthen their cloud data protection strategies."
+            }]
+        }],
+        "postedDate": "2025-04-11",
+        "slug": "google-cloud-leak-linked-to-shark-tank-contestant-exposes-83-000",
+        "category": "Cybersecurity",
+        "timeToRead": 5,
+        "createdAt": "2025-04-11T09:50:10.454Z",
+        "updatedAt": "2025-04-17T22:28:35.542Z",
+        "publishedAt": "2025-04-14T01:45:15.224Z",
+        "locale": "en",
+        "likeCount": 0,
+        "shareCount": 4,
+        "viewCount": "0",
+        "image": {
+            "id": 14,
+            "documentId": "jc1o2in2fzg2txwe8za04hnb",
+            "name": "google-cloud-leak-linked-to-shark-tank-contestant-exposes-83-000.png",
+            "alternativeText": "google-cloud-leak-linked-to-shark-tank-contestant-exposes-83-000",
+            "caption": null,
+            "width": 1523,
+            "height": 833,
+            "formats": {
+                "thumbnail": {
+                    "name": "thumbnail_nkar1.png",
+                    "hash": "thumbnail_nkar1_8e8a9484e6",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 134,
+                    "size": 87,
+                    "sizeInBytes": 87000,
+                    "url": "/uploads/thumbnail_nkar1_8e8a9484e6.png"
+                },
+                "small": {
+                    "name": "small_nkar1.png",
+                    "hash": "small_nkar1_8e8a9484e6",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 273,
+                    "size": 346.37,
+                    "sizeInBytes": 346367,
+                    "url": "/uploads/small_nkar1_8e8a9484e6.png"
+                },
+                "medium": {
+                    "name": "medium_nkar1.png",
+                    "hash": "medium_nkar1_8e8a9484e6",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 410,
+                    "size": 754.52,
+                    "sizeInBytes": 754515,
+                    "url": "/uploads/medium_nkar1_8e8a9484e6.png"
+                },
+                "large": {
+                    "name": "large_nkar1.png",
+                    "hash": "large_nkar1_8e8a9484e6",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 547,
+                    "size": 1316.66,
+                    "sizeInBytes": 1316661,
+                    "url": "/uploads/large_nkar1_8e8a9484e6.png"
+                }
+            },
+            "hash": "nkar1_8e8a9484e6",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 655.65,
+            "url": "../assets/images/newsImagesFallBack/nkar1_8e8a9484e6.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2025-04-11T09:36:49.041Z",
+            "updatedAt": "2025-04-11T10:00:47.660Z",
+            "publishedAt": "2025-04-11T09:36:49.042Z"
+        },
+        "likes": [],
+        "localizations": [{
+            "id": 33,
+            "documentId": "reg9e4lh3nv7ldekxf29ld2b",
+            "title": "Google Cloud Leak-ը կապված է Shark Tank-ի մասնակցի հետ բացահայտում է 83,000-ը",
+            "bodyText": [{
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Google Cloud Storage-ի արտահոսող դույլը, որը կապված է Alice's Table-ի հետ, բացահայտեց ավելի քան 83,000 հաճախորդների անձնական տվյալները, ներառյալ էլփոստերը և տան հասցեները: Խախտումը տեղի է ունեցել սխալ կազմաձևման պատճառով, որի պատճառով պահեստը հասանելի է դարձել հանրությանը:"
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": ""
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Բացահայտված տվյալները ներառում էին ինչպես անձնական, այնպես էլ կորպորատիվ էլ. նամակներ, որոնցից մի քանիսը պատկանում էին այնպիսի բարձրակարգ ընկերությունների, ինչպիսիք են Boston Consulting Group (BCG) և Pfizer-ը: Արտահոսած տեղեկատվությունը կարող է օգտագործվել կիբերհանցագործների կողմից ֆիշինգի, խարդախության կամ ինքնության գողության համար:"
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": ""
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Անվտանգության վերլուծաբաններն ընդգծում են, որ այս միջադեպը վառ օրինակ է այն բանի, թե ինչպես ամպային միջավայրում պարզ սխալ կազմաձևումները կարող են հանգեցնել տվյալների լայնածավալ բացահայտման: Նրանք զգուշացնում են, որ այլ բիզնեսներում նմանատիպ կարգավորումները կարող են անգիտակցաբար խոցելի լինել:"
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": ""
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Փորձագետները խորհուրդ են տալիս կազմակերպություններին անհապաղ չեղյալ համարել պահեստային դույլերի հանրային հասանելիությունը, եթե դա հստակ պահանջված չէ: Բացի այդ, գաղտնագրման իրականացումը, աուդիտի գրանցումը և անվտանգության շարունակական մոնիտորինգը կարևոր լավագույն փորձն են՝ նմանատիպ խախտումներից խուսափելու համար:"
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": ""
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Alice’s Table-ը, որը ժամանակին ցուցադրվել է Shark Tank ձեռնարկատիրական ռեալիթի շոուում, դեռևս հրապարակային հայտարարություն չի հրապարակել: Ակնկալվում է, որ ընկերությունը կհամագործակցի իշխանությունների և գաղտնիության կարգավորիչների հետ, քանի որ հետաքննությունները շարունակվում են:"
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": ""
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Այս միջադեպը կարևոր հիշեցում է. ամպային դարաշրջանում հարմարավետությունը երբեք չպետք է գերազանցի անվտանգությանը: Պատշաճ կոնֆիգուրացիան, կանոնավոր ստուգումները և կոդավորումը սակարկելի չեն:"
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": ""
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Մեր մտքերն ուղղված են խախտումից տուժած անձանց, և մենք հուսով ենք, որ կազմակերպությունները դա կընկալեն որպես արթնացման կոչ՝ ամրապնդելու իրենց ամպային տվյալների պաշտպանության ռազմավարությունները:"
+                }]
+            }],
+            "postedDate": "2025-04-11",
+            "slug": "google-cloud-leak-linked-to-shark-tank-contestant-exposes-83-000",
+            "category": "Cybersecurity",
+            "timeToRead": 5,
+            "createdAt": "2025-04-11T09:55:30.005Z",
+            "updatedAt": "2025-04-17T22:28:35.506Z",
+            "publishedAt": "2025-04-17T22:28:35.529Z",
+            "locale": "hy",
+            "likeCount": 0,
+            "shareCount": 4,
+            "viewCount": "0"
+        }]
+    }, {
+        "id": 26,
+        "documentId": "cgsgwasnz58rxqlho0x4a12k",
+        "title": "Apple Warns Armenian Journalist About Possible Hacking",
+        "bodyText": [{
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "In 2022, journalist Astghik Bedevyan, a reporter for Radio Free Europe/Radio Liberty (RFE/RL), received a warning email from Apple about possible hacking, one of many similar alerts sent to people in Armenia. Bedevyan had extensively covered sensitive topics such as the Nagorno-Karabakh conflict in 2020 and Armenia's snap elections in 2021. Though Apple did not confirm her phone had been hacked, Bedevyan took the threat seriously. As a precaution, she reached out to CyberHub-AM, who checked her phone and found evidence of Pegasus spyware dating back to 2021, around the time of the elections. Additionally, her colleague’s phone was also found to be infected."
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "Pegasus spyware, created by the Israeli firm NSO Group, is used exclusively by governments. It is known for its ability to silently infiltrate smartphones, allowing for surveillance and data extraction. The spyware first surfaced in Armenia in 2021, infecting the phones of politicians from both the government and opposition parties. However, the identity of the attackers remains unclear. Amnesty International has raised suspicions about Azerbaijan’s involvement in these attacks, pointing to its history of using digital surveillance to target activists and journalists in the region."
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "For Bedevyan, this breach of privacy not only jeopardized her professional work but also impacted her personal life. Journalists like her, who report on high-stakes topics such as war and politics, are particularly vulnerable to such cyberattacks. The rise of Pegasus spyware has exposed the deep risks that come with the widespread use of spyware, particularly for women journalists and political activists who are often targeted due to their public profiles."
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "In another chilling incident, a government critic’s wife had her personal information leaked after her phone was likely infected with spyware, leading to a public smear campaign and attacks against her. These incidents serve as a reminder of the potential dangers posed by cyberattacks and the importance of maintaining privacy in the digital age, especially for those working in politically sensitive areas."
+            }]
+        }],
+        "postedDate": "2025-04-02",
+        "slug": "apple-warns-armenian-journalist-about-possible-hacking",
+        "category": "Cybersecurity",
+        "timeToRead": 5,
+        "createdAt": "2025-04-17T22:13:38.087Z",
+        "updatedAt": "2025-05-08T09:07:59.704Z",
+        "publishedAt": "2025-04-17T22:13:38.115Z",
+        "locale": "en",
+        "likeCount": 1,
+        "shareCount": 20,
+        "viewCount": "0",
+        "image": {
+            "id": 23,
+            "documentId": "hnyfr72ra83vsfuz81962rqa",
+            "name": "Astghik.png",
+            "alternativeText": "Armenian Journalist Astghik Bedevyan Targeted by Pegasus Spyware",
+            "caption": null,
+            "width": 964,
+            "height": 551,
+            "formats": {
+                "thumbnail": {
+                    "name": "thumbnail_Astghik.png",
+                    "hash": "thumbnail_Astghik_4ecb589edb",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 140,
+                    "size": 76.19,
+                    "sizeInBytes": 76192,
+                    "url": "/uploads/thumbnail_Astghik_4ecb589edb.png"
+                },
+                "small": {
+                    "name": "small_Astghik.png",
+                    "hash": "small_Astghik_4ecb589edb",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 286,
+                    "size": 266.82,
+                    "sizeInBytes": 266820,
+                    "url": "/uploads/small_Astghik_4ecb589edb.png"
+                },
+                "medium": {
+                    "name": "medium_Astghik.png",
+                    "hash": "medium_Astghik_4ecb589edb",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 429,
+                    "size": 540.88,
+                    "sizeInBytes": 540877,
+                    "url": "/uploads/medium_Astghik_4ecb589edb.png"
+                }
+            },
+            "hash": "Astghik_4ecb589edb",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 192.02,
+            "url": "../assets/images/newsImagesFallBack/Astghik_4ecb589edb.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2025-04-17T22:11:34.103Z",
+            "updatedAt": "2025-04-17T22:11:34.103Z",
+            "publishedAt": "2025-04-17T22:11:34.103Z"
+        },
+        "likes": [{
+            "id": 30,
+            "documentId": "wnygxtxn5tpdvgzcm02lsp14",
+            "likedAt": "2025-05-08T09:07:59.669Z",
+            "isActive": false,
+            "createdAt": "2025-05-08T09:07:59.669Z",
+            "updatedAt": "2025-05-08T09:07:59.669Z",
+            "publishedAt": "2025-05-08T09:07:59.671Z"
+        }],
+        "localizations": [{
+            "id": 35,
+            "documentId": "cgsgwasnz58rxqlho0x4a12k",
+            "title": "Pegasus լրտեսական ծրագիրը Հայաստանում. Լրագրողների գաղտնիության սպառնալիքը",
+            "bodyText": [{
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "2022 թվականին «Ազատություն» ռադիոկայանի լրագրող Աստղիկ Բեդևյանը ստացավ Apple-ից նախազգուշացնող նամակ՝ հնարավոր կիբերհարձակման մասին: Նա միայնակ չէր. նմանատիպ ծանուցումներ ստացան շատերը Հայաստանում։ Բեդևյանը նախկինում ակտիվորեն լուսաբանել էր զգայուն թեմաներ՝ ներառյալ 2020 թվականի Արցախյան պատերազմը և 2021 թվականի արտահերթ խորհրդարանական ընտրությունները: Թեև Apple-ը պաշտոնապես չհաստատեց, որ նրա հեռախոսը կոտրվել էր, Բեդևյանը լուրջ վերաբերվեց այդ նախազգուշացմանը։ Նախազգուշական քայլերի շրջանակում նա դիմեց CyberHub-AM-ին, որի մասնագետները հայտնաբերեցին Pegasus լրտեսական ծրագրի հետքեր՝ 2021 թվականի, ընտրությունների շրջանի հետ կապված։ Բացի այդ, պարզվեց, որ նրա գործընկերոջ հեռախոսը նույնպես վարակված էր։"
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": ""
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Pegasus լրտեսական ծրագիրը ստեղծվել է իսրայելական NSO Group ընկերության կողմից և վաճառվում է միայն կառավարություններին։ Այն հայտնի է իր ունակությամբ լուռ ներթափանցելու սմարթֆոններ՝ թույլ տալով վերահսկել և արտահանել տվյալներ։ Այս լրտեսական ծրագիրը առաջին անգամ Հայաստանում հայտնվեց 2021 թվականին՝ վարակելով ինչպես իշխանության, այնպես էլ ընդդիմության քաղաքական գործիչների հեռախոսները։ Այնուամենայնիվ, հարձակվողների ինքնությունը մնում է անհայտ։ Amnesty International-ը կասկածներ է հայտնել Ադրբեջանի հնարավոր ներգրավվածության վերաբերյալ՝ ընդգծելով այս երկրի նախկինում կիրառած թվային հետապնդման գործելակերպը ակտիվիստների և լրագրողների դեմ։"
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": ""
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Բեդևյանի համար այս գաղտնիության խախտումը վտանգեց ոչ միայն նրա մասնագիտական աշխատանքը, այլև անդրադարձավ անձնական կյանքին։ Բարձր ռիսկային թեմաներ լուսաբանող լրագրողները, ինչպիսիք են պատերազմն ու քաղաքականությունը, հատկապես խոցելի են նման կիբերհարձակումների դեմ։ Pegasus լրտեսական ծրագրի տարածումը ի հայտ բերեց լրտեսական ծրագրերի օգտագործման լուրջ վտանգները՝ հատկապես կանանց լրագրողների և քաղաքական ակտիվիստների համար, ովքեր հաճախ դառնում են թիրախ հասարակական ակտիվության պատճառով։"
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": ""
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Մեկ այլ սարսափեցնող դեպքով, կառավարության քննադատներից մեկի կինը նույնպես տուժեց՝ նրա անձնական տվյալները արտահոսեցին, հավանաբար լրտեսական ծրագրի միջոցով, ինչը հանգեցրեց զրպարտչական արշավի և հարձակումների նրա դեմ։ Այս դեպքերը ևս մեկ անգամ ընդգծում են կիբերհարձակումների վտանգը և թվային դարաշրջանում անձնական տվյալների պաշտպանության կարևորությունը՝ հատկապես նրանց համար, ովքեր աշխատում են քաղաքականապես զգայուն ոլորտներում։"
+                }]
+            }],
+            "postedDate": "2025-04-02",
+            "slug": "apple-warns-armenian-journalist-about-possible-hacking",
+            "category": "Cybersecurity",
+            "timeToRead": 5,
+            "createdAt": "2025-04-17T22:15:16.079Z",
+            "updatedAt": "2025-04-17T22:29:23.588Z",
+            "publishedAt": "2025-04-17T22:29:23.606Z",
+            "locale": "hy",
+            "likeCount": 0,
+            "shareCount": 20,
+            "viewCount": "0"
+        }]
+    }, {
+        "id": 34,
+        "documentId": "cbzui66szipvi3k4kxhqsvgs",
+        "title": "New Wi-Fi Vulnerabilities Threaten Android and Linux Users",
+        "bodyText": [{
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "Cybersecurity researchers have identified two significant vulnerabilities in open-source Wi-Fi software used in Android, Linux, and ChromeOS devices. These flaws could allow attackers to deceive users into connecting to malicious clones of trusted networks and intercept their traffic, or grant an attacker unauthorized access to a secure Wi-Fi network without needing a password."
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": ""
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "The research, conducted by Top10VPN in collaboration with Mathy Vanhoef (who has previously uncovered Wi-Fi vulnerabilities like KRACK, DragonBlood, and TunnelCrack), highlights these new flaws as critical threats to current Wi-Fi security."
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": ""
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "The CVE-2023-52161 vulnerability allows unauthorized access to protected networks, exposing all devices and data connected to those networks. On the other hand, CVE-2023-52160 affects versions of wpa_supplicant 2.10 and earlier, which is the default software used in Android devices to handle Wi-Fi network login requests."
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": ""
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "One potential scenario involves an attacker walking around an office building scanning for networks and targeting an employee as they leave the office, explained the researchers."
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": ""
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "Major Linux distributions like Debian, Red Hat, SUSE, and Ubuntu have already released advisories and updates for these flaws, urging users to take immediate action."
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": ""
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "In the meantime, Android users are advised to manually configure the CA certificate for any saved enterprise networks to prevent such attacks."
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": ""
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "These findings further emphasize the importance of maintaining Wi-Fi security and keeping systems updated, highlighting the need for ongoing vigilance from users and organizations alike."
+            }]
+        }],
+        "postedDate": "2025-04-17",
+        "slug": "new-wi-fi-vulnerabilities-threaten-android-and-linux-users",
+        "category": "Cybersecurity",
+        "timeToRead": 3,
+        "createdAt": "2025-04-17T21:57:13.703Z",
+        "updatedAt": "2025-05-08T09:11:55.653Z",
+        "publishedAt": "2025-04-17T22:29:00.701Z",
+        "locale": "en",
+        "likeCount": 1,
+        "shareCount": 1,
+        "viewCount": "0",
+        "image": {
+            "id": 21,
+            "documentId": "p68f3waet3aax6l2ry2jh7pz",
+            "name": "wifiVulners.png",
+            "alternativeText": "Wi-Fi vulnerabilities affecting Android and Linux devices",
+            "caption": null,
+            "width": 996,
+            "height": 569,
+            "formats": {
+                "thumbnail": {
+                    "name": "thumbnail_wifiVulners.png",
+                    "hash": "thumbnail_wifi_Vulners_78823037dc",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 140,
+                    "size": 12.2,
+                    "sizeInBytes": 12200,
+                    "url": "/uploads/thumbnail_wifi_Vulners_78823037dc.png"
+                },
+                "small": {
+                    "name": "small_wifiVulners.png",
+                    "hash": "small_wifi_Vulners_78823037dc",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 286,
+                    "size": 36.11,
+                    "sizeInBytes": 36108,
+                    "url": "/uploads/small_wifi_Vulners_78823037dc.png"
+                },
+                "medium": {
+                    "name": "medium_wifiVulners.png",
+                    "hash": "medium_wifi_Vulners_78823037dc",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 428,
+                    "size": 72.51,
+                    "sizeInBytes": 72513,
+                    "url": "/uploads/medium_wifi_Vulners_78823037dc.png"
+                }
+            },
+            "hash": "wifi_Vulners_78823037dc",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 30.32,
+            "url": "../assets/images/newsImagesFallBack/wifi_Vulners_78823037dc.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2025-04-17T21:55:25.350Z",
+            "updatedAt": "2025-04-17T21:55:25.350Z",
+            "publishedAt": "2025-04-17T21:55:25.351Z"
+        },
+        "likes": [{
+            "id": 12,
+            "documentId": "bkhki9adzirr8mn8jdwqtr29",
+            "likedAt": "2025-05-07T19:42:48.040Z",
+            "isActive": false,
+            "createdAt": "2025-05-07T19:42:48.040Z",
+            "updatedAt": "2025-05-07T19:42:48.040Z",
+            "publishedAt": "2025-05-07T19:42:48.040Z"
+        }],
+        "localizations": [{
+            "id": 31,
+            "documentId": "cbzui66szipvi3k4kxhqsvgs",
+            "title": "Նոր Wi-Fi խոցելիությունները սպառնում են Android և Linux օգտատերերին",
+            "bodyText": [{
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Կիբերանվտանգության ոլորտի հետազոտողները հայտնաբերել են երկու լուրջ խոցելիություն բաց կոդով Wi-Fi ծրագրային ապահովման մեջ, որը լայնորեն օգտագործվում է Android, Linux և ChromeOS սարքերում։ Այս թերությունները կարող են թույլ տալ հարձակվողներին խաբել օգտատերերին՝ միանալու կեղծված վստահելի ցանցերին և որսալ նրանց ինտերնետ տրաֆիկը, կամ թույլատրել հարձակվողին միանալ պաշտպանված Wi-Fi ցանցին՝ առանց գաղտնաբառի։"
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": ""
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Հետազոտությունը, որը կատարել են Top10VPN-ն և Mathy Vanhoef-ը (ով նախկինում հայտնաբերել է նմանատիպ խոցելիություններ, ինչպիսիք են KRACK-ը, DragonBlood-ը և TunnelCrack-ը), ցույց է տալիս, որ այս նոր թերությունները լուրջ սպառնալիք են ներկայիս Wi-Fi անվտանգությանը։"
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": ""
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "CVE-2023-52161 անվանումով խոցելիությունը հնարավորություն է տալիս չարտոնված մուտք գործել պաշտպանված ցանցեր՝ վտանգելով այդ ցանցում միացված բոլոր սարքերն ու տվյալները։ Մյուս կողմից, CVE-2023-52160-ը ազդում է wpa_supplicant-ի 2.10 և ավելի հին տարբերակների վրա, որը Android սարքերում հիմնական ծրագրային միջոցն է Wi-Fi ցանցերին միանալու համար։"
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": ""
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Ըստ հետազոտողների, հնարավոր սցենար է, երբ հարձակվողը շրջում է կազմակերպության շենքի մոտ՝ սկանավորելով ցանցեր և թիրախավորում աշխատողին, երբ նա լքում է գրասենյակը։"
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": ""
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Debian, Red Hat, SUSE և Ubuntu լուրջ Linux բաշխումները արդեն թողարկել են պաշտոնական տեղեկագրեր և խորհուրդ են տալիս հնարավորինս արագ թարմացնել համակարգերը։"
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": ""
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Մինչ թարմացումները լայնորեն հասանելի կդառնան, Android օգտատերերին խորհուրդ է տրվում ձեռքով կարգավորել իրենց enterprise ցանցերի CA վկայականները՝ նման հարձակումներից խուսափելու համար։"
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": ""
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Այս բացահայտումները նորից ընդգծում են Wi-Fi անվտանգության կարևորությունը և կարիք ունեն օգտատերերի և կազմակերպությունների մշտական ուշադրության։"
+                }]
+            }],
+            "postedDate": "2025-04-17",
+            "slug": "new-wi-fi-vulnerabilities-threaten-android-and-linux-users",
+            "category": "Cybersecurity",
+            "timeToRead": 3,
+            "createdAt": "2025-04-17T21:58:16.078Z",
+            "updatedAt": "2025-05-08T09:11:49.477Z",
+            "publishedAt": "2025-04-17T22:17:43.832Z",
+            "locale": "hy",
+            "likeCount": 0,
+            "shareCount": 1,
+            "viewCount": "0"
+        }]
+    }, {
+        "id": 77,
+        "documentId": "y3gj54ygj5njvebvojlutf66",
+        "title": "Apple Announces New Privacy Features with iOS 15",
+        "bodyText": [{
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "Apple has introduced a slew of privacy features with its latest operating system, iOS 15, aimed at giving users more control over their information. The biggest changes include Mail Privacy Protection, App Privacy Report, and enhanced Siri privacy. Mail Privacy Protection stops senders from learning whether an email has been opened, and hides IP addresses so senders can't link it to other online activity. App Privacy Report provides a summary of how apps use access granted to location, photos, camera, microphone, and contacts over the past seven days. Siri's privacy has been enhanced with on-device speech recognition, meaning audio requests are processed without internet connection, minimizing data leak risks."
+            }]
+        }],
+        "postedDate": "2025-05-04",
+        "slug": "apple-announces-new-privacy-features-with-ios-15",
+        "category": "Tech",
+        "timeToRead": 3,
+        "createdAt": "2025-05-04T17:32:04.890Z",
+        "updatedAt": "2025-05-10T15:28:35.109Z",
+        "publishedAt": "2025-05-04T17:32:04.907Z",
+        "locale": "en",
+        "likeCount": 3,
+        "shareCount": 0,
+        "viewCount": "0",
+        "image": {
+            "id": 44,
+            "documentId": "enow1prks7dbp8b9gsl1m2jq",
+            "name": "iOS 15 interface highlighting new privacy features",
+            "alternativeText": null,
+            "caption": null,
+            "width": 1024,
+            "height": 1024,
+            "formats": {
+                "thumbnail": {
+                    "name": "thumbnail_iOS 15 interface highlighting new privacy features",
+                    "hash": "thumbnail_i_OS_15_interface_highlighting_new_privacy_features_7ebbbc8c73",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 156,
+                    "height": 156,
+                    "size": 50.17,
+                    "sizeInBytes": 50174,
+                    "url": "/uploads/thumbnail_i_OS_15_interface_highlighting_new_privacy_features_7ebbbc8c73.png"
+                },
+                "small": {
+                    "name": "small_iOS 15 interface highlighting new privacy features",
+                    "hash": "small_i_OS_15_interface_highlighting_new_privacy_features_7ebbbc8c73",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 500,
+                    "size": 410.71,
+                    "sizeInBytes": 410708,
+                    "url": "/uploads/small_i_OS_15_interface_highlighting_new_privacy_features_7ebbbc8c73.png"
+                },
+                "medium": {
+                    "name": "medium_iOS 15 interface highlighting new privacy features",
+                    "hash": "medium_i_OS_15_interface_highlighting_new_privacy_features_7ebbbc8c73",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 750,
+                    "size": 883.74,
+                    "sizeInBytes": 883739,
+                    "url": "/uploads/medium_i_OS_15_interface_highlighting_new_privacy_features_7ebbbc8c73.png"
+                },
+                "large": {
+                    "name": "large_iOS 15 interface highlighting new privacy features",
+                    "hash": "large_i_OS_15_interface_highlighting_new_privacy_features_7ebbbc8c73",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 1000,
+                    "size": 1419.45,
+                    "sizeInBytes": 1419454,
+                    "url": "/uploads/large_i_OS_15_interface_highlighting_new_privacy_features_7ebbbc8c73.png"
+                }
+            },
+            "hash": "i_OS_15_interface_highlighting_new_privacy_features_7ebbbc8c73",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 436.31,
+            "url": "../assets/images/newsImagesFallBack/i_OS_15_interface_highlighting_new_privacy_features_7ebbbc8c73.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2025-05-04T17:32:04.780Z",
+            "updatedAt": "2025-05-04T17:32:04.780Z",
+            "publishedAt": "2025-05-04T17:32:04.783Z"
+        },
+        "likes": [{
+            "id": 13,
+            "documentId": "c52iof2rq8c6x4upwokdw1uu",
+            "likedAt": "2025-05-07T19:42:51.544Z",
+            "isActive": false,
+            "createdAt": "2025-05-07T19:42:51.544Z",
+            "updatedAt": "2025-05-07T19:42:51.544Z",
+            "publishedAt": "2025-05-07T19:42:51.544Z"
+        }, {
+            "id": 26,
+            "documentId": "jfx73y4hhusmg9bhwhtcmqng",
+            "likedAt": "2025-05-08T08:12:32.571Z",
+            "isActive": false,
+            "createdAt": "2025-05-08T08:12:32.571Z",
+            "updatedAt": "2025-05-08T08:12:32.571Z",
+            "publishedAt": "2025-05-08T08:12:32.571Z"
+        }, {
+            "id": 37,
+            "documentId": "cjh7gkl27uwequ4d7h4egfed",
+            "likedAt": "2025-05-10T15:28:35.075Z",
+            "isActive": false,
+            "createdAt": "2025-05-10T15:28:35.076Z",
+            "updatedAt": "2025-05-10T15:28:35.076Z",
+            "publishedAt": "2025-05-10T15:28:35.078Z"
+        }],
+        "localizations": []
+    }, {
+        "id": 81,
+        "documentId": "sl37un2svpv2keuffrmt1gvu",
+        "title": "Mike Lynch, British tech trailblazer who died at sea after US trial acquittal",
+        "bodyText": [{
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "Lynch was acquitted just weeks ago by a U.S. court, following a prolonged legal battle over fraud allegations tied to the Autonomy sale. U.S. prosecutors had claimed Lynch overstated Autonomy's value before the sale, leading to significant financial losses for HP. After nearly a decade of courtroom drama, the acquittal was seen as a major legal victory for Lynch, who had consistently denied wrongdoing."
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": ""
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "Tragedy struck when Lynch’s luxury yacht was caught in a violent Mediterranean storm. The vessel, carrying several passengers including Lynch’s family, capsized late Monday night. Italian coast guards responded swiftly, rescuing some survivors, but multiple lives were lost in the incident. As of the latest reports, Lynch’s daughter remains missing, and search efforts are still ongoing."
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": ""
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "Tributes have poured in from the tech community. Colleagues and business leaders described Lynch as a “visionary,” “pioneer,” and “a man who shaped the modern data analytics industry.” His legacy is intertwined with the growth of AI-driven enterprise software and the evolution of UK’s tech landscape."
+            }]
+        }, {
+            "type": "list",
+            "format": "unordered",
+            "children": [{
+                "type": "list-item",
+                "children": [{
+                    "type": "text",
+                    "text": "Lynch’s death not only leaves a void in the industry but also raises new questions about the future of his ventures and the lasting impact of the Autonomy-HP legal saga. Many see it as a reminder of the personal toll legal and corporate wars can have, even on the most powerful figures in tech."
+                }]
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": ""
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "Mike Lynch",
+                "bold": true
+            }, {
+                "type": "text",
+                "text": ", often referred to as \""
+            }, {
+                "type": "text",
+                "text": "Britain's Bill Gates",
+                "underline": true
+            }, {
+                "type": "text",
+                "text": ",\" was found dead after a tragic yacht accident near the coast of Sicily. The 58-year-old tech entrepreneur was a prominent figure in the global technology industry, known for founding Autonomy — a software company he later sold to Hewlett-Packard (HP) in a controversial $11 billion deal."
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "The investigation into the yacht accident is ongoing. Authorities are examining the cause of the sinking, though initial reports suggest the storm’s intensity may have overwhelmed the vessel despite it being built to withstand such conditions."
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": ""
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "This heartbreaking ending to a life filled with innovation, ambition, and controversy has left both the tech world and the UK public in shock."
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": ""
+            }]
+        }, {
+            "type": "paragraph",
+            "children": [{
+                "type": "text",
+                "text": "Our thoughts are with the Lynch family and all those affected by this tragedy."
+            }]
+        }],
+        "postedDate": "2025-04-10",
+        "slug": "mike-lynch-british-tech-trailblazer-who-died-at-sea-after-us-trial-acquittal",
+        "category": "Tech",
+        "timeToRead": 6,
+        "createdAt": "2025-04-10T20:30:01.854Z",
+        "updatedAt": "2025-05-10T15:28:36.894Z",
+        "publishedAt": "2025-05-08T08:24:51.695Z",
+        "locale": "en",
+        "likeCount": 2,
+        "shareCount": 0,
+        "viewCount": "0",
+        "image": {
+            "id": 12,
+            "documentId": "q3dprrrhektii0c8fum93s2r",
+            "name": "mike-lynch-british-tech-trailblazer-dies-at-sea.png",
+            "alternativeText": "mike-lynch-british-tech-trailblazer-dies-at-sea",
+            "caption": null,
+            "width": 1519,
+            "height": 834,
+            "formats": {
+                "thumbnail": {
+                    "name": "thumbnail_mike-lynch-british-tech-trailblazer-dies-at-sea.png",
+                    "hash": "thumbnail_mike_lynch_british_tech_trailblazer_dies_at_sea_7245fd2112",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 135,
+                    "size": 76.57,
+                    "sizeInBytes": 76567,
+                    "url": "/uploads/thumbnail_mike_lynch_british_tech_trailblazer_dies_at_sea_7245fd2112.png"
+                },
+                "small": {
+                    "name": "small_mike-lynch-british-tech-trailblazer-dies-at-sea.png",
+                    "hash": "small_mike_lynch_british_tech_trailblazer_dies_at_sea_7245fd2112",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 275,
+                    "size": 278.74,
+                    "sizeInBytes": 278735,
+                    "url": "/uploads/small_mike_lynch_british_tech_trailblazer_dies_at_sea_7245fd2112.png"
+                },
+                "medium": {
+                    "name": "medium_mike-lynch-british-tech-trailblazer-dies-at-sea.png",
+                    "hash": "medium_mike_lynch_british_tech_trailblazer_dies_at_sea_7245fd2112",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 412,
+                    "size": 586.38,
+                    "sizeInBytes": 586383,
+                    "url": "/uploads/medium_mike_lynch_british_tech_trailblazer_dies_at_sea_7245fd2112.png"
+                },
+                "large": {
+                    "name": "large_mike-lynch-british-tech-trailblazer-dies-at-sea.png",
+                    "hash": "large_mike_lynch_british_tech_trailblazer_dies_at_sea_7245fd2112",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 549,
+                    "size": 992.89,
+                    "sizeInBytes": 992885,
+                    "url": "/uploads/large_mike_lynch_british_tech_trailblazer_dies_at_sea_7245fd2112.png"
+                }
+            },
+            "hash": "mike_lynch_british_tech_trailblazer_dies_at_sea_7245fd2112",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 413.3,
+            "url": "../assets/images/newsImagesFallBack/mike_lynch_british_tech_trailblazer_dies_at_sea_7245fd2112.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2025-03-30T11:02:08.085Z",
+            "updatedAt": "2025-04-09T21:35:57.979Z",
+            "publishedAt": "2025-03-30T11:02:08.090Z"
+        },
+        "likes": [{
+            "id": 28,
+            "documentId": "mmp0qcq4qfu1weomo2ygxqnb",
+            "likedAt": "2025-05-08T08:40:01.028Z",
+            "isActive": false,
+            "createdAt": "2025-05-08T08:40:01.028Z",
+            "updatedAt": "2025-05-08T08:40:01.028Z",
+            "publishedAt": "2025-05-08T08:40:01.032Z"
+        }, {
+            "id": 38,
+            "documentId": "my6rf40bulqpw5mxp8695o2z",
+            "likedAt": "2025-05-10T15:28:36.871Z",
+            "isActive": false,
+            "createdAt": "2025-05-10T15:28:36.871Z",
+            "updatedAt": "2025-05-10T15:28:36.871Z",
+            "publishedAt": "2025-05-10T15:28:36.871Z"
+        }],
+        "localizations": [{
+            "id": 4,
+            "documentId": "sl37un2svpv2keuffrmt1gvu",
+            "title": "Արդարացումից հետո Մայք Լինչը զոհվել է նավաբեկության ժամանակ",
+            "bodyText": [{
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Լինչը մեղադրանքից արդարացվել էր ընդամենը մի քանի շաբաթ առաջ՝ ԱՄՆ դատարանի կողմից, երկարատև դատական պայքարից հետո, որը կապված էր Autonomy ընկերության վաճառքի հետ՝ կեղծիքի մեղադրանքներով։ ԱՄՆ դատախազները պնդում էին, որ Լինչը գերագնահատել է Autonomy-ի արժեքը վաճառքից առաջ, ինչը հանգեցրել է HP-ի համար զգալի ֆինանսական կորուստների։ Գրեթե տասնամյակ տևած դատական պայքարից հետո արդարացումը Լինչի համար համարվեց մեծ իրավական հաղթանակ․ նա մշտապես հերքել էր որևէ վատնորոգություն։"
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Ողբերգություն տեղի ունեցավ, երբ Լինչի շքեղ զբոսանավը բռնվեց Միջերկրածովյան ուժեղ փոթորկի մեջ։ Նավում եղել են մի քանի ուղևորներ, այդ թվում՝ Լինչի ընտանիքի անդամները։ Երկուշաբթի ուշ երեկոյան զբոսանավը շուռ է եկել։ Իտալական առափնյա պահպանությունը արագ արձագանքեց՝ փրկելով մի քանիսին, սակայն մի քանի մարդ զոհվեց։ Վերջին տեղեկություններով՝ Լինչի դուստրը դեռ անհետ կորած է, և որոնողական աշխատանքները շարունակվում են։"
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": ""
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Տեխնոլոգիական համայնքը մեծ հարգանքի տուրք է մատուցում Լինչին։ Գործընկերներն ու բիզնես առաջնորդները նրան նկարագրում են որպես «տեսիլք ունեցող մարդ», «առաջնորդ» և «մարդ, ով ձևավորեց ժամանակակից տվյալների վերլուծության արդյունաբերությունը»։ Նրա ժառանգությունը սերտորեն կապված է արհեստական բանականությամբ աշխատող ձեռնարկությունների ծրագրային ապահովման զարգացման և Միացյալ Թագավորության տեխնոլոգիական լանդշաֆտի էվոլյուցիայի հետ։"
+                }]
+            }, {
+                "type": "list",
+                "format": "unordered",
+                "children": [{
+                    "type": "list-item",
+                    "children": [{
+                        "type": "text",
+                        "text": "Լինչի մահը ոչ միայն մեծ բաց է թողնում արդյունաբերության մեջ, այլ նաև բարձրացնում է նոր հարցեր նրա նախագծերի ապագայի և Autonomy–HP դատական սագայի երկարաժամկետ ազդեցության վերաբերյալ։ Շատերն այս դեպքը դիտարկում են որպես հիշեցում՝ թե իրավական և կորպորատիվ պատերազմներն ինչպես կարող են անդրադառնալ անգամ ամենազորեղ գործիչների վրա:"
+                    }]
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": ""
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Մայք Լինչը, ով հաճախ համեմատվում էր «Մեծ Բրիտանիայի Բիլ Գեյթսի» հետ, մահացած է հայտնաբերվել Սիցիլիայի ափերին մոտ տեղի ունեցած ողբերգական նավաբեկությունից հետո։ 58-ամյա տեխնո-նախաձեռնողը համարվում էր գլոբալ տեխնոլոգիական ոլորտի կարևոր դեմքերից մեկը՝ հայտնի լինելով Autonomy ընկերության հիմնադրմամբ, որը հետագայում վաճառեց Hewlett-Packard-ին (HP) հակասական $11 միլիարդ դոլար արժողությամբ գործարքով։"
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Զբոսանավի վթարի վերաբերյալ հետաքննությունը շարունակվում է։ Իշխանությունները ուսումնասիրում են խորտակման պատճառները, թեև նախնական հաշվետվությունները վկայում են, որ փոթորկի ուժգնությունը գերազանցել է նավի դիմադրողականության հնարավորությունները, չնայած վերջինս կառուցված էր նման պայմաններին դիմակայելու համար։"
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Այս սրտաճմլիկ ավարտը՝ լի նորարարությամբ, հավակնություններով և հակասություններով կյանքին, ցնցել է թե՛ տեխնոլոգիական աշխարհը, թե՛ Միացյալ Թագավորության հանրությանը։"
+                }]
+            }, {
+                "type": "paragraph",
+                "children": [{
+                    "type": "text",
+                    "text": "Մեր մտքերը Լինչի ընտանիքի և բոլոր տուժածների հետ են այս ողբերգության մեջ։"
+                }]
+            }],
+            "postedDate": "2025-04-10",
+            "slug": "mike-lynch-british-tech-trailblazer-who-died-at-sea-after-us-trial-acquittal",
+            "category": "Tech",
+            "timeToRead": 6,
+            "createdAt": "2025-04-10T20:39:12.792Z",
+            "updatedAt": "2025-05-08T08:24:51.714Z",
+            "publishedAt": "2025-04-10T20:41:06.305Z",
+            "locale": "hy",
+            "likeCount": 0,
+            "shareCount": 0,
+            "viewCount": "0"
+        }]
+    }],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 5
+        }
+    }
+}

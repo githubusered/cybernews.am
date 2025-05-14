@@ -1,0 +1,36 @@
+{
+  "data": {
+    "id": 33,
+    "documentId": "tv3rerfcfjuuc8ipbelwq4o8",
+    "firstname": "Edmon",
+    "lastname": "Parsamyan",
+    "createdAt": "2025-05-05T15:39:09.550Z",
+    "updatedAt": "2025-05-07T10:31:40.334Z",
+    "publishedAt": "2025-05-07T10:31:40.365Z",
+    "locale": "en",
+    "phone": "+37499611666",
+    "gender": "Male",
+    "country": "Armenia",
+    "city": "Yerevan",
+    "province": "Avan",
+    "bio": "Software Developer & Cloud Enthusiast\n\nEdmon Parsamyan is a software developer specializing in full-stack web development and cloud computing. With experience in React, TypeScript, and AWS, he builds scalable applications and optimized cloud environments. Passionate about DevOps and automation, Edmon is dedicated to creating efficient and user-friendly tech solutions.",
+    "street": "Avan, Avan-Arinj, 1 Mic. B.1/3 A. 7",
+    "users_permissions_user": {
+      "id": 2,
+      "documentId": "lgq7cutn8bs6l2dtjhqrg1e9",
+      "username": "EdmonParsamyan",
+      "email": "edmon.parsamyan1@mail.ru",
+      "provider": "local",
+      "confirmed": true,
+      "blocked": false,
+      "createdAt": "2025-04-18T00:05:51.554Z",
+      "updatedAt": "2025-05-07T09:35:50.337Z",
+      "publishedAt": "2025-05-04T17:50:02.560Z",
+      "interests": "IT,ECommerce"
+    },
+    "localizations": []
+  },
+  "meta": {
+
+  }
+}

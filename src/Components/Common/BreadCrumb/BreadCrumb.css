@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'MontserratarmRegular';
+    src: url('../../../../public/assets/Fonts/Montserratarm-Regular.otf');
+  }
+  
+  .breadCrumb {
+    font-size: 20px;
+    margin-bottom: 36px;
+    font-family: 'MontserratarmRegular';
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+  }
+  
+  .dark .breadCrumb {
+    color: #FFF;
+  }
+  
+  .breadCrumb a {
+    color: #18A826;
+    text-decoration: none;
+  }
+  
+  .breadCrumb a:hover {
+    text-decoration: underline;
+  }
+  
+  .breadCrumbCurrent {
+    color: #555;
+    text-transform: capitalize;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 1023px) {
+    .breadCrumb {
+      font-size: 18px;
+      margin: 0 10px 36px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .breadCrumb {
+      font-size: 16px;
+      margin: 0 10px 33px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .breadCrumb {
+      font-size: 14px;
+      margin: 0 10px 22px;
+    }
+  }

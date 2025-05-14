@@ -1,0 +1,430 @@
+@font-face {
+    font-family: 'MontserratarmRegular';
+    src: url('../../../public/assets/Fonts/Montserratarm-Regular.otf');
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.dark a{
+    color: white;
+}
+
+.navbar .container{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.navbar .navbarTop{
+    display: flex;
+    padding: 14px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 84px;
+}
+
+.navbarTop .iconAndSearch{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex: 1 0 0;
+}
+.iconAndSearch .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.logo > img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.iconAndSearch .search{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.search .searchLabel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+.searchLabel .input{
+    display: flex;
+    width: 320px;
+    padding: 12px 24px 12px 34px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    border-radius: 100px;
+    border: 1px solid #acacac;
+    background: #fff;
+    font-family: 'MontserratarmRegular', sans-serif;
+    font-size: 16px;
+
+}
+
+.dark .searchLabel .input{
+    background-color: black;
+    color: white;
+}
+
+.searchLabel .searchIcon{
+    position: absolute;
+    left: 3%;
+    top: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchIcon .searchIconMagnifying{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    color: #acacac;
+}
+.dark .searchLabel .input:focus + .searchIcon .searchIconMagnifying{
+    color: white;
+}
+.searchLabel .input:focus + .searchIcon .searchIconMagnifying{
+    color: black;
+    /* display: none; */
+}
+.search .input::placeholder{
+    color: #C8C9CB;
+    font-family: 'MontserratarmRegular', sans-serif;
+    font-size: 16px;
+}
+.searchResults {
+    top: 100%;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    z-index: 1000;
+    width: 300px;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.dark .searchResults {
+    background-color: black;
+    border: 1px solid #555;
+}
+
+.searchResultsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchResultItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color, #000);
+    font-family: 'MontserratarmRegular', sans-serif;
+    font-size: 16px;
+    transition: background 0.2s ease-in-out;
+    cursor: pointer;
+    margin: 6px 2px;
+    border-radius: 8px;
+    border: 1px solid #44E790;
+}
+
+.dark .searchResultItem {
+    color: white;
+}
+
+.searchResultItem:hover {
+    background: var(--hover-color, #f0f0f0);
+}
+
+.dark .searchResultItem:hover {
+    background: #1a1a1a;
+}
+
+.navbarTop .btcLightModeLanguageLoginSignUp{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+    flex: 1 0 0;
+}
+.btcLightModeLanguageLoginSignUp .btc{
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 10px;
+    
+    border-radius: 20px;
+    /* background: #131313; */
+}
+.btc .btcIcon{
+    width: 30px;
+    height: 30px;
+    color: white;
+    transform: rotate(10deg);
+    color: #44E790;
+} 
+.btc p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 121.875%; /* 24.375px */
+}
+
+
+.btcLightModeLanguageLoginSignUp .hamburgerMenu{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid #acacac;
+    padding: 20px;
+}
+.hamburgerMenu .hamburgerMenuIcon{
+    width: 24px;
+    height: 24px;
+    color: black;
+    cursor: pointer;
+}
+.hamburgerMenu .hamburgerMenuIcon:hover{
+    color: #acacac;
+}
+
+.navbar .navbarBottom{
+    display: flex;
+    padding: 16px 64px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    border-bottom: 1px solid  #F4F4F4;
+    /* background: #000; */
+}
+.navbarBottom .menu{
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 0px 39px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+.menu .menuItem{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 0px 40px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.menu .menuItem:focus{
+    color: #18A826;
+}
+.menuItem.active{
+    color: #18A826;
+    text-decoration: underline;
+    text-decoration-color: #18A826;
+    text-decoration-thickness: 3px;
+
+}
+@media (max-width: 1024px) {
+    /* .container {
+        max-width: 90%;
+      } */
+      .searchLabel .input {
+        width: 240px;
+    }
+    .navbar .navbarTop{
+        padding: 10px 0;
+        gap: 10px;
+        /* overflow: hidden; */
+    }
+    .navbarTop .iconAndSearch {
+        flex: none;
+    }
+    .navbarTop .btcLightModeLanguageLoginSignUp {
+        flex: none;
+    }
+}
+@media (max-width: 768px) {
+    /* .container {
+      max-width: 720px;
+    } */
+    .navbar .navbarTop{
+        justify-content: space-between;
+        padding: 14px 10px;
+        gap: 12px;
+    }
+    .searchLabel .input {
+        width: 320px;
+        padding: 8px 12px 8px 34px;
+    }
+    .navbarTop .iconAndSearch {
+        flex: none;
+    }
+    .navbarTop .btcLightModeLanguageLoginSignUp{
+        position: relative;
+        flex: none;
+    }
+    .btcLightModeLanguageLoginSignUp .hamburgerMenu{
+        padding: 10px;
+    }
+    .dark .btcLightModeLanguageLoginSignUp .hamburgerMenuIcon{
+        color: white;
+    }
+    .btcLightModeLanguageLoginSignUp .btc{
+        display: none;
+    }
+    
+
+    .btcLightModeLanguageLoginSignUp .absoluteMenu{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        z-index: 1000;
+        border-radius: 8px;
+        border: 1px solid #acacac;
+        padding: 20px;
+        /* border: 1px solid black; */
+
+        background-color: rgba(230, 230, 232, 0.8);
+
+        position: absolute;
+        top: 120%;
+        right: 8%;
+    }
+    .dark .btcLightModeLanguageLoginSignUp .absoluteMenu{
+        background-color: black;
+    }
+    .absoluteMenu .btc{
+        display: flex;
+        padding: 0;
+
+    }
+    .btc .btcIcon{
+        width: 24px;
+        height: 24px;
+    }
+
+    .absoluteMenu .lightMode{
+        display: flex;
+    }
+    
+    .absoluteMenu .language{
+        display: flex;
+
+    }
+
+    .absoluteMenu .signInAndUp{
+        display: flex;
+    }
+    .absoluteMenu .signInAndUp{
+        padding-left: 13px;
+        gap: 15px;
+    }
+
+    .absoluteMenu .login span{
+        font-size: 16px;
+    }
+    
+    .absoluteMenu .signInAndUp .signUp{
+        padding: 7px 10px;
+    }
+    .absoluteMenu .signUp span{
+        font-size: 16px;
+    }
+    .absoluteMenu .absoluteIcons{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .btcLightModeLanguageLoginSignUp .hamburgerMenu{
+        display: flex;
+    }
+
+    body {
+      font-size: 16px;
+    }
+  }
+
+  /* Mobile Phones (≤480px): Full-width layout with padding for spacing */
+@media (max-width: 480px) {
+    /* .container {
+      max-width: 100%;
+      padding: 0 15px;
+    } */
+  
+    .navbar .navbarTop{
+        padding: 8px 10px;
+    }
+    .searchLabel .input {
+        width: 240px;
+        padding: 8px 12px 8px 34px;
+    }
+    .navbarTop .btcLightModeLanguageLoginSignUp{
+        flex: none;
+        position: relative;
+    }
+    .btcLightModeLanguageLoginSignUp .absoluteMenu{
+        position: absolute;
+        bottom: 1px;
+        left: 1px;
+    }
+    .btcLightModeLanguageLoginSignUp .absoluteMenu{
+        background-color: rgba(230, 230, 232, 0.8);
+
+        position: absolute;
+
+        bottom: -340%;
+        left: -550%;
+    }
+
+    .absoluteMenu .login span{
+        font-size: 14px;
+    }
+    
+    .absoluteMenu .signInAndUp .signUp{
+        padding: 5px 8px;
+    }
+    .absoluteMenu .signUp span{
+        font-size: 14px;
+    }
+    .absoluteMenu .absoluteIcons{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    body {
+      font-size: 14px;
+    }
+  }

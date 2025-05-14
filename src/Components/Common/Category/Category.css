@@ -1,0 +1,32 @@
+
+
+@font-face {
+    font-family: 'MontserratarmRegular', sans-serif;
+    src: url('../../../../public/assets/Fonts/Montserratarm-Regular.otf');
+}
+.category{
+    display: flex;
+    padding: 2px 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 30px;
+    border: 0.5px solid #5A5A5A;
+}
+.dark .category{
+    border-color: #A5A5A5;
+}
+.category > span{
+    color: #5A5A5A;
+    font-family: "MontserratarmRegular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.dark .category > span{
+    color: #A5A5A5;
+}

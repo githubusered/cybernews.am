@@ -1,0 +1,142 @@
+.notificationsSetting .notificationItem {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #000;
+
+    position: relative;
+  }
+.dark .notificationsSetting .notificationItem {
+    border: 1px solid #FFF;
+
+}
+  .notificationItem .notificationLeft {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+  }
+  
+  .notification .notificationRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 1 0 0;
+  }
+  
+  .notificationRight h3 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+.dark .notificationRight h3 {
+    color: #FFF;  
+}
+
+  .notificationRight p {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+.dark .notificationRight p {
+    color: #FFF;
+}
+
+.notificationRight p > span {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.dark .notificationRight p > span {
+    color: #FFF;
+}  
+
+.notificationRight .publishedTime {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 14px;
+  }
+
+.dark .notificationRight .publishedTime{
+    color: rgba(255, 255, 255, 0.70);
+
+} 
+  .notificationRight .notificationIcons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .notificationIcons .linkIcon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+  }
+
+.notificationItem .absoluteRoundIsRead{
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  width: 10px;
+  height: 10px;
+  background-color: #44E790;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+  
+  
+  /* ✅ Responsive Styles */
+  @media (max-width: 768px) {
+    .notificationsSetting .notificationItem {
+      flex-direction: column;
+      gap: 16px;
+      align-items: stretch;
+    }
+  
+    .notificationItem .notificationLeft {
+      width: 32px;
+      height: 32px;
+    }
+  
+    .notificationRight h3 {
+      font-size: 16px;
+    }
+  
+    .notificationRight p,
+    .notificationRight p > span {
+      font-size: 14px;
+    }
+  
+    .notificationRight .publishedTime {
+      font-size: 12px;
+    }
+  
+    .notificationRight .notificationIcons {
+      gap: 6px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .notificationRight h3 {
+      font-size: 14px;
+    }
+  
+    .notificationRight p {
+      font-size: 13px;
+    }
+  
+    .notificationRight p > span {
+      font-size: 13px;
+    }
+  
+    .notificationRight .publishedTime {
+      font-size: 11px;
+    }
+  }
+  

@@ -1,0 +1,112 @@
+.userMenu{
+    position: relative;
+}
+.userMenu .userProfile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 16px;
+    gap: 10px;
+    
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid #44E790;
+    box-sizing: border-box !important;
+}
+.userProfile .profilePhoto{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    padding: 13px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    background-size: contain;
+}
+.userProfile .profileUsername{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    flex-grow: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.dark .userProfile .profileUsername{
+    color: #fff;
+}
+.userProfile .profileDropDown{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.userMenu .userSettings.dropdown{
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    width: 100%;
+
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+    border-radius: 8px;
+    border: 1px solid #44E790;
+}
+
+.userSettings .userSetting{
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    gap: 10px;
+    
+    width: 100%;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.userSettings .userSetting.active {
+    background-color: #f0f0f0;
+    color: #18A826;
+    font-weight: bold;
+    border-left: 4px solid #18A826;
+}
+.dark .userSettings .userSetting.active {
+    background-color: #333;  /* Dark background for dark theme */
+    color: #18A826;          /* Retain the same active color for contrast */
+    font-weight: bold;
+    border-left: 4px solid #18A826;
+}
+.userSettings .userSetting:hover{
+    background: #18A826;
+    color: #fff;
+}
+.userSettings .userSetting:hover > span{
+    color: #fff;
+}
+.dark .userSettings .userSetting > span{
+    color: #fff;
+}
+.userSetting .userSettingIcon{
+    width: 24px;
+    height: 24px;
+}
+
+.userSetting > span{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .dispNoneWhenMaxWidth768{
+        display: none;
+    }
+}

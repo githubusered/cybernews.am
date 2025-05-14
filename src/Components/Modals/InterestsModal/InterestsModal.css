@@ -1,0 +1,55 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .modal-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 650px;
+    text-align: center;
+  }
+  
+  .interests-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
+  .interest-button {
+    padding: 8px 12px;
+    border: 1px solid #333;
+    background: #f2f2f2;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .interest-button.selected {
+    background: #18A826;
+    color: white;
+  }
+  
+  .submit-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #18A826;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .error {
+    margin-top: 10px;
+  }
+  

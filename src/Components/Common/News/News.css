@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'MontserratarmRegular', sans-serif;
+    src: url('../../../../public/assets/Fonts/Montserratarm-Regular.otf');
+  }
+  @font-face {
+    font-family: 'MontserratarmBold', sans-serif;
+    src: url('../../../../public/assets/Fonts/Montserratarm-Bold.otf');
+}
+.news{
+    display: flex;
+    max-width: 360px;
+    padding-bottom: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.news > img{
+    max-width: 360px;
+}
+.news .newsCompTitle{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    align-self: stretch;
+    overflow: hidden;
+    color: #000;
+    text-overflow: ellipsis;
+    font-family: "MontserratarmBold";
+    font-size: 24px;
+    font-style: normal;
+    /* font-weight: 700; */
+    line-height: normal;
+}
+.dark .news .newsCompTitle{
+    color: #FFF;
+}
+.news .newsCompBodyText{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 9;
+    align-self: stretch;
+    overflow: hidden;
+    color: #5A5A5A;
+    text-overflow: ellipsis;
+    font-family: "MontserratarmRegular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.dark .news .newsCompBodyText{
+    color: #A5A5A5;
+}
+
+.news .newsCompHowMinutesRead{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+}
+.newsCompHowMinutesRead .line{
+    flex-grow: 1;
+    height: 2px;
+    background-color: #555;
+    margin: 0 4px;
+}
+.newsCompHowMinutesRead span{
+    color: #000;
+    font-family: "MontserratarmRegular";
+    font-size: 12px;
+}
+
+.dark .newsCompHowMinutesRead span{
+    color: #FFF;
+}
+.news .newsCompInteractionIcons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;
+}
+.newsCompInteractionIcons .newsCompInteractionIcon{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #5A5A5A;
+    cursor: pointer;
+} 
+.dark .newsCompInteractionIcons .newsCompInteractionIcon{
+    color: #A5A5A5;
+}
+.newsCompInteractionIcons .newsCompInteractionIcon:hover{
+    color:red;
+}
+.likeSection{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.newsCompInteractionIcons .liked{
+    color: red;
+}
+
+.likeCount{
+    font-size: 14px;
+    color: #5A5A5A;
+}
+.dark .likeCount {
+    color: #A5A5A5; /* Adjust color in dark mode */
+}
