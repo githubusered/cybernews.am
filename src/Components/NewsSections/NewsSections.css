@@ -1,81 +1,122 @@
-.newsSection .container{
-    max-width: 1140px;
-    margin: 32px auto;
+/* === BASE STYLES === */
+.newsSection .container {
+  max-width: 1140px;
+  margin: 32px auto;
+  padding: 0 16px;
 }
 
-.container .newsSectionAll{
-    display: flex;
-    justify-content: space-between;
+.newsSectionAll {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
 }
-.newsSectionAll .newsSectionAllColumns{
-    display: flex;
+
+.newsSectionAllColumns {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Allow each column group to take ~32% of width on desktop */
+.newsSectionAllColumns {
+  width: 32%;
+  min-width: 300px;
+}
+
+/* Card */
+.newsSectionAllColumn {
+  border-radius: 20px;
+  border: 1px solid #000000CC;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.newsSectionAllColumnAI,
+.newsSectionAllColumnECommerce {
+  height: 600px;
+}
+
+/* Dark mode border */
+.dark .newsSectionAllColumn {
+  border-color: #FFFFFFCC;
+}
+
+/* Title badge */
+.absoluteSectionColumnTitleAndRound {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.roundColor {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #13E8F6;
+  border: 0.5px solid white;
+}
+
+.absoluteSectionColumnTitle {
+  color: #FFF;
+  font-size: 16px;
+}
+
+/* Color overrides */
+.newsSectionAllColumnAI .roundColor { background-color: #1345F6; }
+.newsSectionAllColumnGovernment .roundColor { background-color: #9747FF; }
+.newsSectionAllColumnCybersecurity .roundColor { background-color: #28DA7A; }
+.newsSectionAllColumnOthers .roundColor { background-color: red; }
+.newsSectionAllColumnECommerce .roundColor { background-color: black; }
+.newsSectionAllColumnTech .roundColor { background-color: #FFED47; }
+
+/* === RESPONSIVE === */
+@media (max-width: 1024px) {
+  .newsSectionAllColumns {
+    width: 48%;
+  }
+}
+
+@media (max-width: 768px) {
+  .newsSectionAll {
     flex-direction: column;
-    gap: 10px;
-}
-.newsSectionAll .rowGap{
-    gap: 20px;
-}
-.newsSectionAllColumns .newsSectionAllColumn{
-    border-radius: 20px;
-    border: 1px solid #000000CC;
-    width:360px;
-    height: 300px;
-    background-size: cover;
-    
-    position: relative;
-}
-.dark .newsSectionAllColumns .newsSectionAllColumn{
-    border-color: #FFFFFFCC;
-}
-.newsSectionAllColumn .absoluteSectionColumnTitleAndRound{
-    display: flex;
     align-items: center;
-    gap: 10px;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-}
-.absoluteSectionColumnTitleAndRound .roundColor{
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #13E8F6;
-    border: 0.5px solid white;
-}
-.absoluteSectionColumnTitleAndRound .absoluteSectionColumnTitle{
-    color: #FFF;
-    font-size: 16px;
+  }
+
+  .newsSectionAllColumns {
+    width: 100%;
+    align-items: center;
+  }
+
+  .newsSectionAllColumn {
+    height: 250px;
+    max-width: 90%;
+  }
+
+  .newsSectionAllColumnAI,
+  .newsSectionAllColumnECommerce {
+    height: 400px;
+  }
 }
 
+@media (max-width: 480px) {
+  .newsSectionAllColumn {
+    height: 200px;
+  }
 
-.newsSectionAllColumns .newsSectionAllColumnAI{
-    height:600px;
-}
-.newsSectionAllColumnAI .absoluteSectionColumnTitleAndRound .roundColor{
-    background-color: #1345F6;
-}
+  .newsSectionAllColumnAI,
+  .newsSectionAllColumnECommerce {
+    height: 300px;
+  }
 
-.newsSectionAllColumnGovernment .absoluteSectionColumnTitleAndRound .roundColor{
-    background-color: #9747FF;
+  .absoluteSectionColumnTitle {
+    font-size: 14px;
+  }
 }
-
-.newsSectionAllColumnCybersecurity .absoluteSectionColumnTitleAndRound .roundColor{
-    background-color: #28DA7AE3;
-}
-
-.newsSectionAllColumnOthers .absoluteSectionColumnTitleAndRound .roundColor{
-    background-color: red;
-}
-.newsSectionAllColumns .newsSectionAllColumnECommerce{
-    height: 600px;
-    background-position: right;
-}
-.newsSectionAllColumnECommerce .absoluteSectionColumnTitleAndRound .roundColor{
-    background-color: black;
-}
-
-.newsSectionAllColumnTech .absoluteSectionColumnTitleAndRound .roundColor{
-    background-color: #FFED47;
-}
-
-

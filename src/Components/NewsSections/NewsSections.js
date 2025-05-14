@@ -18,7 +18,7 @@ const NewsSections = () => {
     <section className='newsSection'>
         <SectionTitle  value='News Sections'/>
         <div className="container">
-            <div className="newsSectionAll">
+            <div className="newsSectionAll responsiveWrap">
               <div className='newsSectionAllColumns rowGap'>
                 <Link to='/news/it' className='newsSectionAllColumn newsSectionAllColumnIT' style={{backgroundImage: `url(${it_img})`}}>
                   <div className='absoluteSectionColumnTitleAndRound'>

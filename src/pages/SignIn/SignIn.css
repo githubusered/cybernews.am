@@ -21,6 +21,7 @@
     border-radius: 8px;
     background: conic-gradient(from -9deg at 48% 53%, #52D55F 28deg, #18A826 36deg, #fff 360deg); 
 }
+
 .dark .signIn .container{
     background: conic-gradient(from -9deg at 48% 53%, #52D55F 28deg, #18A826 36deg, #000 360deg); 
 }  
@@ -218,3 +219,73 @@
 }
 
 
+
+/* Mobile and tablets */
+@media (max-width: 768px) {
+  .signIn .container {
+    flex-direction: column;
+    gap: 150px;
+    padding: 20px;
+  }
+
+  .signIn .formLeftImg,
+  .signIn .form {
+    width: 100%;
+    margin: 0;
+    height: 300px; /* shorter height for image on mobile */
+  }
+
+  .formLeftImg {
+    border-radius: 8px 8px 0 0;
+  }
+
+  .signIn .form {
+    padding: 20px 10px;
+  }
+
+  .titleAndDontHaveAnAccount .title {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .dontHaveAnAccount p {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .form .signInSubmit {
+    font-size: 16px;
+  }
+
+  .form .signInWithGoogle {
+    flex-direction: column;
+  }
+}
+
+/* Extra small (phones <=480px) */
+@media (max-width: 480px) {
+  .formInputs .input,
+  .passwordWrapper .passwordInput {
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+
+  .rememberMe  span,
+  .forgetPassword,
+  .orContinueWith p {
+    font-size: 14px;
+  }
+
+  .form .signInSubmit,
+  .form .signInWithGoogle {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .backToWebsite {
+    font-size: 16px;
+    right: 16px;
+    top: 16px;
+    padding: 4px 8px;
+  }
+}
